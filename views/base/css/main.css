@@ -1,0 +1,62 @@
+@font-face{
+  font-family:'Montserrat-ExtraBold';
+  src: url(./Montserrat-ExtraBold.ttf)
+}
+@font-face{
+  font-family:'Montserrat-Regular';
+  src: url(./Montserrat-Regular.ttf)
+}
+@font-face{
+  font-family:'MontserratSubrayada-Bold';
+  src: url(./MontserratSubrayada-Bold.ttf)
+}
+
+body{
+  font-family: 'Montserrat-Regular' 
+}
+
+.titulo{
+  font-family: 'Montserrat-ExtraBold' 
+}
+.tag{
+  font-family:'MontserratSubrayada-Bold';
+}
+.shadow {
+  transition: box-shadow;
+}
+.box {
+  transition: box-shadow .3s;
+}
+/* .box-delate {
+  transition: box-shadow .3s;
+} */
+
+.box:hover {
+    box-shadow: 0 0 20px rgba(3, 3, 3,.2); 
+}
+
+.box-danger:hover {
+  box-shadow: 0 0 20px rgba(252, 1, 1, 0.555); 
+}.box-danger-tag {
+  box-shadow: 0 0 20px rgba(252, 1, 1, 0.555); 
+}
+
+.box-primary:hover {
+  box-shadow: 0 0 20px rgba(0, 123, 255, 0.555); 
+}
+
+.box-warning:hover {
+  box-shadow: 0 0 20px rgba(255, 193, 7, 0.705); 
+}
+.box-primary-tag{
+  box-shadow: 0 0 20px rgba(0, 123, 255, 0.555); 
+}
+
+.box-success:hover {
+  box-shadow: 0 0 20px rgba(1, 192, 46, 0.616); 
+}
+.box-success-tag {
+  box-shadow: 0 0 20px rgba(40, 167, 69, 0.555); 
+}
+
+
