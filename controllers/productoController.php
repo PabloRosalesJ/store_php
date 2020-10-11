@@ -32,6 +32,7 @@ class productoController{
     }
 
     public function guardar(){
+        Utils::isIdentity();
         if ($_POST) {
 
             $nombreImagen = Utils::Store();
